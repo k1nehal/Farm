@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Farm</string>
+    <string-array name="cat_array">
+        <item>-Choose One-</item>
+        <item>Bio-Organic</item>
+        <item>Feritilizers</item>
+        <item>Fungicide and Insecticides</item>
+    </string-array>
+
+    <string-array name="typ_array">
+        <item>-Choose One-</item>
+        <item>Litre</item>
+        <item>Kilo Gram</item>
+    </string-array>
+</resources>

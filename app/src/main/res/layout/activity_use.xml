@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Use"
+    android:gravity="center"
+    android:background="@color/white">
+    <Spinner
+        android:id="@+id/nam"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+
+        android:background="@drawable/spinner_back"
+        android:textSize="15sp"
+        android:paddingLeft="25dp"
+        />
+    <EditText
+        android:id="@+id/qua"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:textColorHint="@color/white"
+        android:hint="Quantity"
+        android:layout_below="@+id/nam"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittexxt"
+        android:textSize="15sp"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:paddingLeft="25dp"
+        />
+
+    <Button
+        android:id="@+id/use"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/qua"
+        android:layout_marginTop="30dp"
+        android:background="@color/ButtonColor"
+        android:textColor="@color/white"
+        android:text="USE"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
